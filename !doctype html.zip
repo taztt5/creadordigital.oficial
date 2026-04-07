@@ -1,0 +1,1244 @@
+<!doctype html>
+<html lang="es" class="h-full" style="scroll-behavior:smooth">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="https://www.creadordigital.com/google6c57b120053166c3.html">
+  <title>Guía Creador Digital | creadordigital.com</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script>
+tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{heading:['Space Grotesk','sans-serif'],body:['DM Sans','sans-serif']},colors:{brand:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a',700:'#15803d'},surface:{50:'#fafafa',100:'#f4f4f5',200:'#e4e4e7',700:'#3f3f46',800:'#27272a',900:'#18181b',950:'#09090b'}}}}}
+</script>
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:auto}
+body{font-family:'DM Sans',sans-serif;background:#fafafa;color:#18181b;transition:background .3s,color .3s}
+.dark body{background:#09090b;color:#e4e4e7}
+h1,h2,h3,h4,h5,h6{font-family:'Space Grotesk',sans-serif}
+.fade-up{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+.card-hover{transition:transform .25s ease,box-shadow .25s ease}
+.card-hover:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.1)}
+.dark .card-hover:hover{box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.nav-link{position:relative;transition:color .2s}
+.nav-link::after{content:'';position:absolute;bottom:-2px;left:0;width:0;height:2px;background:#22c55e;transition:width .3s}
+.nav-link:hover::after,.nav-link.active::after{width:100%}
+.btn-primary{background:#22c55e;color:#fff;transition:all .2s;border:none;cursor:pointer}
+.btn-primary:hover{background:#16a34a;transform:translateY(-1px)}
+.btn-secondary{background:transparent;border:2px solid #22c55e;color:#22c55e;transition:all .2s;cursor:pointer}
+.btn-secondary:hover{background:#22c55e;color:#fff}
+.glass{background:rgba(255,255,255,.7);backdrop-filter:blur(12px);border:1px solid rgba(0,0,0,.05)}
+.dark .glass{background:rgba(24,24,27,.8);border-color:rgba(255,255,255,.08)}
+.section-card{background:#fff;border:1px solid #e4e4e7;border-radius:16px;transition:all .3s}
+.dark .section-card{background:#1c1c1f;border-color:#3f3f46}
+.tag{display:inline-block;padding:4px 12px;border-radius:9999px;font-size:12px;font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+.checklist-item{cursor:pointer;transition:all .2s}
+.checklist-item:hover{background:rgba(34,197,94,.05)}
+.checklist-item.checked{opacity:.6}
+.checklist-item.checked span{text-decoration:line-through}
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#a1a1aa;border-radius:3px}
+.dark ::-webkit-scrollbar-thumb{background:#52525b}
+.tab-btn{padding:8px 20px;border-radius:9999px;border:none;cursor:pointer;font-weight:600;font-size:14px;transition:all .2s;background:transparent;color:#71717a}
+.tab-btn.active{background:#22c55e;color:#fff}
+.tab-btn:hover:not(.active){background:rgba(34,197,94,.1);color:#22c55e}
+.accordion-content{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.accordion-content.open{max-height:2000px}
+.mobile-menu{transform:translateX(100%);transition:transform .3s ease}
+.mobile-menu.open{transform:translateX(0)}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.float-anim{animation:float 3s ease-in-out infinite}
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.4}}
+.pulse-dot{animation:pulse-dot 2s ease-in-out infinite}
+.progress-ring{transition:stroke-dashoffset .5s ease}
+</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app" class="h-full overflow-auto"><!-- NAVBAR -->
+   <nav id="navbar" class="glass fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div class="flex items-center justify-between h-16"><a href="#inicio" class="flex items-center gap-2 font-heading font-bold text-xl"> <span class="w-8 h-8 bg-brand-500 rounded-lg flex items-center justify-center text-white text-sm">▶</span> <span id="logo-text">CreadorDigital</span> </a>
+      <div class="hidden lg:flex items-center gap-1"><a href="#inicio" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">Inicio</a> <a href="#tiktok" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">TikTok</a> <a href="#youtube" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">YouTube</a> <a href="#edicion" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">Edición</a> <a href="#herramientas" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">Herramientas</a> <a href="#ideas" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">Ideas</a> <a href="#errores" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">Errores</a> <a href="#contacto" class="nav-link px-3 py-2 text-sm font-medium rounded-lg">Contacto</a>
+      </div>
+      <div class="flex items-center gap-3"><button id="theme-toggle" class="w-9 h-9 rounded-lg flex items-center justify-center hover:bg-surface-200 dark:hover:bg-surface-700 transition-colors" aria-label="Cambiar tema"> <i data-lucide="moon" class="w-5 h-5 dark:hidden"></i> <i data-lucide="sun" class="w-5 h-5 hidden dark:block"></i> </button> <button id="mobile-toggle" class="lg:hidden w-9 h-9 rounded-lg flex items-center justify-center hover:bg-surface-200 dark:hover:bg-surface-700" aria-label="Menú"> <i data-lucide="menu" class="w-5 h-5"></i> </button>
+      </div>
+     </div>
+    </div>
+   </nav><!-- MOBILE MENU -->
+   <div id="mobile-menu" class="mobile-menu fixed top-0 right-0 bottom-0 w-72 z-50 glass p-6 pt-20"><button id="mobile-close" class="absolute top-5 right-5 w-9 h-9 rounded-lg flex items-center justify-center hover:bg-surface-200 dark:hover:bg-surface-700" aria-label="Cerrar menú"> <i data-lucide="x" class="w-5 h-5"></i> </button>
+    <div class="flex flex-col gap-1"><a href="#inicio" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">Inicio</a> <a href="#tiktok" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">TikTok</a> <a href="#youtube" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">YouTube</a> <a href="#edicion" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">Edición</a> <a href="#herramientas" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">Herramientas</a> <a href="#ideas" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">Ideas</a> <a href="#errores" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">Errores</a> <a href="#contacto" class="mobile-link px-4 py-3 rounded-lg font-medium hover:bg-brand-500/10 transition-colors">Contacto</a>
+    </div>
+   </div>
+   <div id="mobile-overlay" class="fixed inset-0 bg-black/40 z-40 hidden"></div><!-- HERO -->
+   <section id="inicio" class="relative pt-28 pb-20 px-4 sm:px-6 overflow-hidden">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+     <div class="absolute -top-40 -right-40 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl"></div>
+     <div class="absolute -bottom-20 -left-20 w-72 h-72 bg-brand-400/8 rounded-full blur-3xl"></div>
+    </div>
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+     <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-500/10 text-brand-600 dark:text-brand-400 text-sm font-semibold mb-6 fade-up"><span class="w-2 h-2 rounded-full bg-brand-500 pulse-dot"></span> Guía actualizada 2026
+     </div>
+     <h1 id="hero-title" class="font-heading text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6 fade-up">Crea contenido que<br><span class="text-brand-500">funcione de verdad</span></h1>
+     <p id="hero-subtitle" class="text-lg sm:text-xl text-surface-700 dark:text-surface-200 max-w-2xl mx-auto mb-10 leading-relaxed fade-up">Sin fórmulas mágicas. Sin promesas vacías. Una guía práctica, directa y honesta para empezar en TikTok y YouTube desde cero.</p>
+     <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16 fade-up"><a href="#tiktok" class="btn-primary px-8 py-4 rounded-xl font-semibold text-lg inline-flex items-center justify-center gap-2"> <i data-lucide="play" class="w-5 h-5"></i> Empezar con TikTok </a> <a href="#youtube" class="btn-secondary px-8 py-4 rounded-xl font-semibold text-lg inline-flex items-center justify-center gap-2"> <i data-lucide="tv" class="w-5 h-5"></i> Empezar con YouTube </a>
+     </div><!-- BENEFIT CARDS -->
+     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto fade-up">
+      <div class="section-card p-5 card-hover text-center">
+       <div class="w-12 h-12 bg-brand-500/10 rounded-xl flex items-center justify-center mx-auto mb-3"><i data-lucide="target" class="w-6 h-6 text-brand-500"></i>
+       </div>
+       <h3 class="font-heading font-semibold mb-1">100% Práctico</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200">Pasos concretos que puedes aplicar hoy mismo</p>
+      </div>
+      <div class="section-card p-5 card-hover text-center">
+       <div class="w-12 h-12 bg-brand-500/10 rounded-xl flex items-center justify-center mx-auto mb-3"><i data-lucide="shield-check" class="w-6 h-6 text-brand-500"></i>
+       </div>
+       <h3 class="font-heading font-semibold mb-1">Sin Humo</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200">Nada de «hazte viral mañana». Solo lo que funciona</p>
+      </div>
+      <div class="section-card p-5 card-hover text-center">
+       <div class="w-12 h-12 bg-brand-500/10 rounded-xl flex items-center justify-center mx-auto mb-3"><i data-lucide="zap" class="w-6 h-6 text-brand-500"></i>
+       </div>
+       <h3 class="font-heading font-semibold mb-1">Desde Cero</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200">No necesitas experiencia previa ni equipo caro</p>
+      </div>
+     </div>
+    </div><!-- QUICK ACCESS -->
+    <div class="max-w-6xl mx-auto mt-20 px-4 fade-up">
+     <h2 class="font-heading text-2xl font-bold text-center mb-8">Acceso rápido</h2>
+     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3"><a href="#tiktok" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">📱</span><span class="font-semibold text-sm">TikTok</span> </a> <a href="#youtube" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">🎬</span><span class="font-semibold text-sm">YouTube</span> </a> <a href="#edicion" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">✂️</span><span class="font-semibold text-sm">Edición</span> </a> <a href="#herramientas" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">🛠️</span><span class="font-semibold text-sm">Herramientas</span> </a> <a href="#ideas" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">💡</span><span class="font-semibold text-sm">Ideas</span> </a> <a href="#errores" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">⚠️</span><span class="font-semibold text-sm">Errores</span> </a> <a href="#estrategia" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">📈</span><span class="font-semibold text-sm">Estrategia</span> </a> <a href="#interactivo" class="section-card p-4 card-hover flex flex-col items-center gap-2 text-center"> <span class="text-3xl">🎯</span><span class="font-semibold text-sm">Interactivo</span> </a>
+     </div>
+    </div>
+   </section><!-- INTRO -->
+   <section class="py-16 px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto fade-up">
+     <div class="section-card p-8 sm:p-10">
+      <h2 class="font-heading text-2xl sm:text-3xl font-bold mb-6">Antes de empezar, seamos honestos</h2>
+      <div class="space-y-4 text-surface-700 dark:text-surface-200 leading-relaxed">
+       <p>Crear contenido no es fácil. No vas a hacerte viral con tu primer vídeo y, sinceramente, tampoco debería ser tu objetivo. <strong>El objetivo real es aprender a comunicar, a crear algo que valga la pena ver y a mejorar con cada publicación.</strong></p>
+       <p>Esta guía no tiene fórmulas secretas. Tiene lo que funciona: práctica, constancia, buena edición y entender qué quiere tu audiencia. Si buscas atajos, esto no es para ti. Si buscas mejorar de verdad, sigue leyendo.</p>
+       <p>No importa si tienes un móvil básico o si nunca has editado un vídeo. <strong>Lo que importa es que empieces, que aprendas y que no abandones en la primera semana.</strong></p>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== TIKTOK ========== -->
+   <section id="tiktok" class="py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-pink-500/10 text-pink-600 dark:text-pink-400 mb-4">📱 TikTok</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Guía completa de TikTok</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">Todo lo que necesitas saber para empezar a crear contenido en TikTok con criterio.</p>
+     </div><!-- TikTok: Qué es -->
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-pink-500/10 rounded-lg flex items-center justify-center text-pink-500 font-bold text-sm">1</span> ¿Qué es TikTok y por qué importa?</h3>
+      <p class="text-surface-700 dark:text-surface-200 leading-relaxed mb-4">TikTok es una plataforma de vídeos cortos donde el algoritmo decide quién ve tu contenido, no tus seguidores. Eso significa que <strong>cualquier vídeo puede llegar a miles de personas, aunque tengas 0 seguidores</strong>. Esa es su mayor ventaja y por eso es la mejor plataforma para empezar.</p>
+      <div class="grid sm:grid-cols-3 gap-4 mt-4">
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">🎯 Alcance orgánico alto</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">El algoritmo empuja contenido nuevo constantemente</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">⚡ Resultados rápidos</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Puedes tener feedback real en horas, no meses</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">📐 Baja barrera</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Un móvil y buena iluminación es todo lo que necesitas</p>
+       </div>
+      </div>
+     </div><!-- TikTok: Cómo empezar -->
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-pink-500/10 rounded-lg flex items-center justify-center text-pink-500 font-bold text-sm">2</span> Cómo empezar paso a paso</h3>
+      <div class="space-y-4">
+       <div class="flex gap-4 items-start">
+        <div class="w-6 h-6 rounded-full bg-brand-500 flex-shrink-0 flex items-center justify-center text-white text-xs font-bold mt-0.5">
+         1
+        </div>
+        <div>
+         <p class="font-semibold">Crea tu cuenta y optimiza tu perfil</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Nombre claro, bio directa que diga qué haces, foto de perfil profesional. No pongas «futuro influencer», pon de qué hablas.</p>
+        </div>
+       </div>
+       <div class="flex gap-4 items-start">
+        <div class="w-6 h-6 rounded-full bg-brand-500 flex-shrink-0 flex items-center justify-center text-white text-xs font-bold mt-0.5">
+         2
+        </div>
+        <div>
+         <p class="font-semibold">Investiga antes de grabar</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Pasa 2-3 días viendo contenido de tu nicho. Analiza qué funciona: hooks, duración, estilo, formato. Toma notas.</p>
+        </div>
+       </div>
+       <div class="flex gap-4 items-start">
+        <div class="w-6 h-6 rounded-full bg-brand-500 flex-shrink-0 flex items-center justify-center text-white text-xs font-bold mt-0.5">
+         3
+        </div>
+        <div>
+         <p class="font-semibold">Graba tu primer vídeo (hoy)</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">No tiene que ser perfecto. Tiene que existir. La perfección es la excusa favorita para no empezar.</p>
+        </div>
+       </div>
+       <div class="flex gap-4 items-start">
+        <div class="w-6 h-6 rounded-full bg-brand-500 flex-shrink-0 flex items-center justify-center text-white text-xs font-bold mt-0.5">
+         4
+        </div>
+        <div>
+         <p class="font-semibold">Publica y analiza</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Mira las métricas: retención (lo más importante), vistas, compartidos. Aprende y mejora el siguiente.</p>
+        </div>
+       </div>
+       <div class="flex gap-4 items-start">
+        <div class="w-6 h-6 rounded-full bg-brand-500 flex-shrink-0 flex items-center justify-center text-white text-xs font-bold mt-0.5">
+         5
+        </div>
+        <div>
+         <p class="font-semibold">Repite y mejora</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Los primeros 20 vídeos son tu escuela. No los juzgues, aprende de ellos.</p>
+        </div>
+       </div>
+      </div>
+     </div><!-- TikTok: Nichos -->
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-pink-500/10 rounded-lg flex items-center justify-center text-pink-500 font-bold text-sm">3</span> Elegir tu nicho</h3>
+      <p class="text-surface-700 dark:text-surface-200 mb-4">Un nicho no es una cárcel, es un punto de partida. Elige algo que <strong>te interese de verdad</strong> y que puedas hablar durante meses sin aburrirte.</p>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        🍳 Cocina
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        💪 Fitness
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        💰 Finanzas
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        📚 Educación
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        🎮 Gaming
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        ✈️ Viajes
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        💄 Belleza
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        🐶 Mascotas
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        🏠 Hogar/DIY
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        📖 Libros
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        🎵 Música
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-3 rounded-xl text-center text-sm font-medium">
+        💻 Tecnología
+       </div>
+      </div>
+      <div class="mt-4 p-4 bg-brand-500/5 border border-brand-500/20 rounded-xl">
+       <p class="text-sm"><strong>💡 Consejo:</strong> Pregúntate: «¿Puedo hacer 100 vídeos de esto sin forzarme?» Si la respuesta es sí, es un buen nicho.</p>
+      </div>
+     </div><!-- TikTok: Ideas de contenido -->
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-pink-500/10 rounded-lg flex items-center justify-center text-pink-500 font-bold text-sm">4</span> Ideas y tipos de vídeos para TikTok</h3>
+      <div class="grid sm:grid-cols-2 gap-4">
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">📋 Listas y rankings</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">«3 apps que no conocías», «Top 5 errores de...». Fáciles de hacer y funcionan muy bien.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">🎓 Tutoriales rápidos</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Enseña algo en 30-60 segundos. Directo al grano, sin introducción larga.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">💬 Storytime</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Cuenta una experiencia personal relevante para tu nicho. La gente conecta con historias reales.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">⚡ Antes / Después</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Transformaciones, resultados, cambios. Muy visuales y con alta retención.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">❓ Responde preguntas</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Responde dudas comunes de tu nicho. Genera autoridad y es fácil de producir.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">🔥 Opiniones directas</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Da tu opinión sincera sobre algo de tu nicho. Las opiniones fuertes generan engagement.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">📦 Unboxing / Review</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Muestra y analiza productos de tu nicho. Sé honesto, no todo es bueno.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm mb-1">🎭 POV / Sketches</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Escenas cortas que representen situaciones con las que tu audiencia se identifique.</p>
+       </div>
+      </div>
+     </div><!-- TikTok: Edición específica -->
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-pink-500/10 rounded-lg flex items-center justify-center text-pink-500 font-bold text-sm">5</span> Edición específica para TikTok</h3>
+      <div class="space-y-4">
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-1">🎣 Hooks (primeros 2 segundos)</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200">El hook es lo más importante. Si pierdes al espectador en los primeros 2 segundos, el resto no importa. Empieza con una pregunta, dato impactante, o afirmación provocadora. Nunca empieces con «Hola, soy...»</p>
+       </div>
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-1">⏱️ Duración ideal</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>15-45 segundos</strong> para empezar. Los vídeos largos solo funcionan si tu retención es alta. Mejor un vídeo de 20 segundos que se ve entero que uno de 3 minutos que abandonan al segundo 10.</p>
+       </div>
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-1">✂️ Ritmo y cortes</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200">Corta las pausas, los «ehhh», los silencios. Un vídeo bien editado tiene corte cada 2-4 segundos. El ritmo debe ser rápido pero no caótico. Cada segundo debe aportar algo.</p>
+       </div>
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-1">🔤 Subtítulos</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Obligatorios.</strong> El 80% de la gente ve vídeos sin sonido. Subtítulos grandes, centrados, con contraste. Usa CapCut para subtítulos automáticos.</p>
+       </div>
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-1">🎵 Audio y música</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200">Usa sonidos trending cuando encajen. La música de fondo sutil aumenta la retención. El audio debe ser claro y sin eco. Invierte en un micro de solapa (10-15€).</p>
+       </div>
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-1">💡 Iluminación</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200">Luz natural de frente (una ventana) es suficiente. Si grabas de noche, un aro de luz básico (15-20€) cambia todo. Evita luz de fondo fuerte o sombras en la cara.</p>
+       </div>
+      </div>
+     </div><!-- TikTok: Consejos clave -->
+     <div class="section-card p-6 sm:p-8 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-pink-500/10 rounded-lg flex items-center justify-center text-pink-500 font-bold text-sm">6</span> Consejos que nadie te dice</h3>
+      <div class="grid sm:grid-cols-2 gap-4">
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="text-sm"><strong>No borres vídeos que «no funcionaron».</strong> A veces el algoritmo los rescata semanas después.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="text-sm"><strong>Publica entre 3-7 veces por semana.</strong> La consistencia importa más que la frecuencia extrema.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="text-sm"><strong>El texto en pantalla retiene.</strong> Usa texto grande y visible en cada vídeo.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="text-sm"><strong>Responde comentarios con vídeos.</strong> Es contenido gratis que genera engagement.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="text-sm"><strong>No compres seguidores. Nunca.</strong> Destruye tu alcance y el algoritmo lo detecta.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="text-sm"><strong>Analiza tu mejor vídeo y replica el formato.</strong> Si algo funciona, haz más de eso.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== YOUTUBE ========== -->
+   <section id="youtube" class="py-20 px-4 sm:px-6 bg-surface-50 dark:bg-surface-900/50">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-red-500/10 text-red-600 dark:text-red-400 mb-4">🎬 YouTube</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Guía completa de YouTube</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">YouTube es una carrera de fondo. Aquí está todo lo que necesitas para empezarla bien.</p>
+     </div>
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-red-500/10 rounded-lg flex items-center justify-center text-red-500 font-bold text-sm">1</span> Crear tu canal correctamente</h3>
+      <div class="space-y-3 text-surface-700 dark:text-surface-200 leading-relaxed">
+       <p><strong>Nombre del canal:</strong> Fácil de recordar, de escribir y de buscar. Evita números aleatorios, guiones bajos o nombres que no digan nada. Si tu nicho es cocina, que se intuya.</p>
+       <p><strong>Foto de perfil y banner:</strong> Profesionales pero simples. Canva tiene plantillas gratuitas perfectas. El banner debe decir qué ofreces y cuándo publicas.</p>
+       <p><strong>Descripción del canal:</strong> Deja claro en las primeras dos líneas de qué va tu canal y a quién ayuda. El «Sobre mí» lo lee más gente de la que piensas.</p>
+       <p><strong>Vídeo de presentación:</strong> 60 segundos máximo diciendo quién eres, qué van a encontrar y por qué deberían suscribirse. Directo al grano.</p>
+      </div>
+     </div>
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-red-500/10 rounded-lg flex items-center justify-center text-red-500 font-bold text-sm">2</span> Grabar y estructurar vídeos</h3>
+      <div class="space-y-4">
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-2">Estructura básica de un vídeo de YouTube:</p>
+        <div class="space-y-2 text-sm text-surface-700 dark:text-surface-200">
+         <p><strong>1. Hook (0-15s):</strong> Engancha desde el primer segundo. Dí qué van a aprender y por qué importa.</p>
+         <p><strong>2. Intro corta (15-30s):</strong> Si tienes intro, máximo 5 segundos. Nadie quiere ver una animación de 15 segundos.</p>
+         <p><strong>3. Contenido principal:</strong> Organizado en secciones claras. Usa capítulos. Ve al grano.</p>
+         <p><strong>4. Resumen y CTA:</strong> Resume los puntos clave y pide que se suscriban (una vez, no diez).</p>
+        </div>
+       </div>
+       <div class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl">
+        <p class="font-semibold mb-2">Sobre la duración:</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>8-15 minutos</strong> es el sweet spot para la mayoría de nichos. Pero la regla real es: <strong>dura lo que necesites, ni un segundo más.</strong> Un vídeo de 6 minutos perfecto supera a uno de 20 relleno.</p>
+       </div>
+      </div>
+     </div>
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-red-500/10 rounded-lg flex items-center justify-center text-red-500 font-bold text-sm">3</span> Mejorar la calidad paso a paso</h3>
+      <div class="grid sm:grid-cols-2 gap-4">
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="font-semibold text-sm mb-1">🎤 Audio primero</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">La gente perdona mala imagen pero NO mal audio. Un micro de solapa de 15€ es tu primera inversión.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="font-semibold text-sm mb-1">💡 Iluminación segundo</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Luz natural de frente. Si no puedes, un softbox de 30€ hace milagros. Evita luces cenital que generan sombras feas.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="font-semibold text-sm mb-1">📷 Cámara al final</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">Tu móvil graba en 1080p o 4K. No necesitas cámara profesional hasta que generes ingresos.</p>
+       </div>
+       <div class="p-4 border border-surface-200 dark:border-surface-700 rounded-xl">
+        <p class="font-semibold text-sm mb-1">🖼️ Miniaturas</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200">La miniatura es el 50% del éxito. Texto grande, pocos elementos, colores contrastantes, cara expresiva si apareces.</p>
+       </div>
+      </div>
+     </div>
+     <div class="section-card p-6 sm:p-8 mb-6 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-red-500/10 rounded-lg flex items-center justify-center text-red-500 font-bold text-sm">4</span> Crecer en YouTube: la verdad</h3>
+      <div class="space-y-3 text-surface-700 dark:text-surface-200 leading-relaxed">
+       <p><strong>Los primeros 6 meses son los más duros.</strong> Vas a publicar vídeos que casi nadie ve. Es normal. Todos los YouTubers grandes pasaron por eso.</p>
+       <p><strong>Frecuencia realista:</strong> 1 vídeo por semana es perfecto. Mejor 1 bueno que 3 mediocres. La constancia durante meses importa más que la cantidad.</p>
+       <p><strong>SEO básico:</strong> Títulos que la gente buscaría, descripciones de al menos 200 palabras, tags relevantes, capítulos con timestamps. No es complicado pero marca la diferencia.</p>
+       <p><strong>Analiza YouTube Analytics:</strong> Retención de audiencia es la métrica más importante. Si la gente se va en el minuto 1, tu intro es mala. Si se va a mitad, el contenido flojea. Los datos no mienten.</p>
+      </div>
+     </div>
+     <div class="section-card p-6 sm:p-8 fade-up">
+      <h3 class="font-heading text-xl font-bold mb-4 flex items-center gap-3"><span class="w-8 h-8 bg-red-500/10 rounded-lg flex items-center justify-center text-red-500 font-bold text-sm">5</span> Tipos de contenido para YouTube</h3>
+      <div class="grid sm:grid-cols-2 gap-4">
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm">📖 Tutoriales y how-to</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200 mt-1">El formato rey de YouTube. Resuelve un problema concreto. Título: «Cómo [hacer algo] en [tiempo]»</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm">📝 Listas y rankings</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200 mt-1">«7 errores que...», «5 mejores...». Fáciles de estructurar y con buena retención.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm">🔍 Reviews y comparativas</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200 mt-1">Analiza productos o herramientas. Sé honesto, menciona pros y contras reales.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm">📖 Vlogs con propósito</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200 mt-1">No vlogs de «mi día a día». Vlogs con un objetivo: «Un día probando...», «24h haciendo...»</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm">💬 Opinión y debate</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200 mt-1">Comparte perspectivas únicas sobre temas de tu nicho. Las opiniones genuinas generan comunidad.</p>
+       </div>
+       <div class="bg-surface-50 dark:bg-surface-800 p-4 rounded-xl">
+        <p class="font-semibold text-sm">🎬 Shorts</p>
+        <p class="text-xs text-surface-700 dark:text-surface-200 mt-1">Reutiliza clips de tus vídeos largos. Son tu mejor herramienta para atraer suscriptores nuevos.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== EDICIÓN ========== -->
+   <section id="edicion" class="py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-purple-500/10 text-purple-600 dark:text-purple-400 mb-4">✂️ Edición</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Todo sobre edición de vídeo</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">La edición es lo que separa un vídeo amateur de uno profesional. Aquí aprenderás cada elemento.</p>
+     </div>
+     <div class="grid sm:grid-cols-2 gap-6">
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        🎣
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Hooks</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">Los primeros segundos deciden si alguien se queda o se va. Un buen hook puede ser una pregunta, un dato sorprendente, una contradicción o mostrar el resultado final primero.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Ejemplos:</strong> «Esto me costó aprender 2 años» · «El 90% hace esto mal» · «Lo que nadie te cuenta sobre...» · «Mira el resultado y te cuento cómo»</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        ✂️
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Cortes y ritmo</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">Corta todo lo que no aporte. Pausas, muletillas, repeticiones. El vídeo debe fluir. Un buen ritmo mantiene la atención sin sentirse acelerado.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Regla:</strong> Si dudas si cortar algo, córtalo. Es mejor pecar de conciso que de largo. TikTok: corte cada 2-3s. YouTube: cada 4-8s dependiendo del formato.</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        🔄
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Transiciones</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">Las transiciones deben ser invisibles o intencionales. Un corte limpio es mejor que una transición forzada. Usa transiciones con propósito: cambio de tema, cambio de lugar, paso del tiempo.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Buenas prácticas:</strong> Corte directo para ritmo rápido · Fundido para cambio de sección · Match cut para creatividad · Evita star wipes y efectos de 2005</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        🔤
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Subtítulos y texto</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">Los subtítulos son imprescindibles en TikTok y muy recomendables en YouTube. El texto en pantalla refuerza el mensaje y retiene la atención.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Tips:</strong> Fuente legible y grande · Contraste con fondo · Máximo 2 líneas · Palabras clave en color · Evita subtítulos demasiado pequeños o de colores difíciles</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        🎵
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Audio y música</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">El audio es el 50% de tu vídeo. Un vídeo con mala imagen pero buen audio funciona. Al revés, no. La música de fondo añade emoción pero no debe competir con tu voz.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Niveles:</strong> Voz a -6dB · Música de fondo a -18/-24dB · Efectos de sonido a -12dB · Siempre prueba con auriculares y sin ellos</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        🎨
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Color y efectos</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">La corrección de color básica mejora mucho la calidad percibida. No necesitas ser colorista profesional. Ajusta brillo, contraste y saturación. Los efectos deben usarse con moderación.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Regla de oro:</strong> Si el efecto distrae del contenido, elimínalo. Los efectos están para mejorar, no para rellenar. Menos es más, siempre.</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        💡
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Iluminación</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">Buena iluminación = vídeo profesional con cualquier cámara. Mala iluminación = vídeo amateur con cualquier cámara. Así de simple.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Setup básico:</strong> Luz principal de frente (ventana o aro de luz) · Sin luz directa de fondo · Para más pro: luz de relleno lateral a menor intensidad</p>
+      </div>
+      <div class="section-card p-6 card-hover fade-up">
+       <div class="text-2xl mb-3">
+        🖼️
+       </div>
+       <h3 class="font-heading font-bold text-lg mb-2">Miniaturas (YouTube)</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-3">La miniatura es tu anuncio. Si no es buena, nadie hace clic. Invierte tiempo en cada miniatura. Es tan importante como el vídeo.</p>
+       <p class="text-xs bg-surface-50 dark:bg-surface-800 p-3 rounded-lg"><strong>Fórmula:</strong> Máximo 3-4 palabras grandes · Cara expresiva · Colores contrastantes · Debe entenderse en tamaño pequeño (así se ve en el móvil)</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== HERRAMIENTAS ========== -->
+   <section id="herramientas" class="py-20 px-4 sm:px-6 bg-surface-50 dark:bg-surface-900/50">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-blue-500/10 text-blue-600 dark:text-blue-400 mb-4">🛠️ Herramientas</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Herramientas recomendadas</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">Solo herramientas probadas. No necesitas pagar por nada al principio.</p>
+     </div>
+     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">✂️</span>
+        <div>
+         <p class="font-bold text-sm">CapCut</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Gratis</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Editor de vídeo gratuito, potente y fácil. Subtítulos automáticos, efectos, transiciones. Ideal para TikTok y Shorts. Disponible en móvil y PC.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">🎬</span>
+        <div>
+         <p class="font-bold text-sm">DaVinci Resolve</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Gratis</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Editor profesional gratuito para PC. Corrección de color de nivel Hollywood. Curva de aprendizaje mayor pero resultados increíbles. Ideal para YouTube.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">🖌️</span>
+        <div>
+         <p class="font-bold text-sm">Canva</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Freemium</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Miniaturas, banners, posts, stories. Plantillas profesionales. La versión gratuita es más que suficiente para empezar.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">🔤</span>
+        <div>
+         <p class="font-bold text-sm">CapCut / Veed.io</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Freemium</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Subtítulos automáticos con buena precisión. CapCut gratis en app. Veed.io online con marca de agua en plan gratis.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">📊</span>
+        <div>
+         <p class="font-bold text-sm">TubeBuddy / VidIQ</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Freemium</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Extensiones para YouTube. Análisis de SEO, palabras clave, competencia. Imprescindibles para optimizar títulos y descripciones.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">📝</span>
+        <div>
+         <p class="font-bold text-sm">Notion / Google Keep</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Gratis</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Organiza tus ideas, calendario de publicación, guiones. Notion para planificación completa, Keep para ideas rápidas.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">🎵</span>
+        <div>
+         <p class="font-bold text-sm">Pixabay / Epidemic Sound</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Gratis / Pago</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Música libre de derechos. Pixabay 100% gratis. Epidemic Sound es de pago pero tiene la mejor biblioteca con licencia completa.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">🎙️</span>
+        <div>
+         <p class="font-bold text-sm">Audacity</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Gratis</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Editor de audio gratuito. Eliminar ruido, ajustar niveles, mejorar calidad de voz. Simple pero muy efectivo.</p>
+      </div>
+      <div class="section-card p-5 card-hover fade-up">
+       <div class="flex items-center gap-3 mb-3">
+        <span class="text-xl">📱</span>
+        <div>
+         <p class="font-bold text-sm">InShot</p><span class="tag bg-brand-500/10 text-brand-600 text-[10px]">Freemium</span>
+        </div>
+       </div>
+       <p class="text-xs text-surface-700 dark:text-surface-200">Editor de vídeo móvil rápido y sencillo. Bueno para ediciones simples en TikTok cuando no quieres usar PC.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== IDEAS ========== -->
+   <section id="ideas" class="py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-amber-500/10 text-amber-600 dark:text-amber-400 mb-4">💡 Ideas</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Banco de ideas de contenido</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">Nunca te quedes sin ideas. Aquí tienes decenas organizadas por categoría.</p>
+     </div><!-- Ideas tabs -->
+     <div class="flex flex-wrap justify-center gap-2 mb-8 fade-up" id="ideas-tabs"><button class="tab-btn active" data-tab="principiantes">Principiantes</button> <button class="tab-btn" data-tab="sinrostro">Sin mostrar cara</button> <button class="tab-btn" data-tab="rapidas">Rápidas (&lt; 30s)</button> <button class="tab-btn" data-tab="nichos">Por nicho</button>
+     </div>
+     <div id="ideas-content" class="fade-up"><!-- Principiantes -->
+      <div id="tab-principiantes" class="ideas-panel">
+       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div class="section-card p-4">
+         <p class="text-sm">📋 «3 cosas que aprendí esta semana sobre [tu nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">❓ «Respondiendo la pregunta más común sobre [tema]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">⚡ «Mi opinión impopular sobre [tema de tu nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📖 «Lo que nadie te dice sobre empezar en [nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🔄 «Antes vs. Después de [experiencia]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">💡 «Un consejo que cambió mi [actividad]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🎯 «El mayor error que cometí en [nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📱 «La app que todo [tipo de persona] necesita»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🗣️ «Si pudiera empezar de cero, haría esto»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🔥 «Desmintiendo el mito más grande de [nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📊 «Mi progreso en [tiempo] haciendo [actividad]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">✅ «Checklist rápido para [tarea de tu nicho]»</p>
+        </div>
+       </div>
+      </div><!-- Sin rostro -->
+      <div id="tab-sinrostro" class="ideas-panel hidden">
+       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div class="section-card p-4">
+         <p class="text-sm">🖥️ Screencast con voz en off: tutoriales de software</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">✍️ Vídeos de manos: cocina, manualidades, unboxing</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📝 Texto animado: datos, listas, curiosidades</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🎵 Compilaciones temáticas con música</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📊 Infografías animadas: estadísticas, comparativas</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🎮 Gameplay con comentario o texto</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📸 Slideshows con narración: viajes, reviews</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🐶 Contenido de mascotas con texto superpuesto</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🏠 Time-lapses: limpieza, organización, proyectos</p>
+        </div>
+       </div>
+      </div><!-- Rápidas -->
+      <div id="tab-rapidas" class="ideas-panel hidden">
+       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div class="section-card p-4">
+         <p class="text-sm">⚡ «Dato rápido: [dato sorprendente de tu nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">✅ «Haz esto, no esto» (split screen)</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🔢 «3 segundos para entender [concepto]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🎯 «POV: [situación relatable de tu nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">💬 «Respuesta rápida a [comentario/pregunta]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🔥 «Red flag en [nicho]: [ejemplo]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">📱 «Truco rápido de [herramienta/app]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">⭐ «Califica del 1 al 10: [cosa de tu nicho]»</p>
+        </div>
+        <div class="section-card p-4">
+         <p class="text-sm">🤔 «¿Tú qué opinas?» [opinión + pregunta]</p>
+        </div>
+       </div>
+      </div><!-- Por nicho -->
+      <div id="tab-nichos" class="ideas-panel hidden">
+       <div class="space-y-4">
+        <div class="section-card p-5">
+         <p class="font-bold mb-2">🍳 Cocina</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Recetas en 60s · «Qué ceno hoy» · Probando recetas virales · Trucos de cocina · Meal prep semanal · Cocina con 3 ingredientes</p>
+        </div>
+        <div class="section-card p-5">
+         <p class="font-bold mb-2">💪 Fitness</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Rutina de 5 min · Errores en el gym · Comidas fáciles · Mi progreso · Ejercicios en casa · Mitos del fitness</p>
+        </div>
+        <div class="section-card p-5">
+         <p class="font-bold mb-2">💰 Finanzas</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Ahorro del mes · Inversión para dummies · Apps para ahorrar · Errores con dinero · Hábitos financieros · Ingresos pasivos reales</p>
+        </div>
+        <div class="section-card p-5">
+         <p class="font-bold mb-2">💻 Tech / Productividad</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">App del día · Setup tour · Trucos de iPhone/Android · Extensiones útiles · Automatizaciones · Organización digital</p>
+        </div>
+        <div class="section-card p-5">
+         <p class="font-bold mb-2">📚 Educación / Estudio</p>
+         <p class="text-sm text-surface-700 dark:text-surface-200">Métodos de estudio · Resúmenes de libros · Datos curiosos · Study with me · Motivación realista · Idiomas en 60s</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== ERRORES ========== -->
+   <section id="errores" class="py-20 px-4 sm:px-6 bg-surface-50 dark:bg-surface-900/50">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-red-500/10 text-red-600 dark:text-red-400 mb-4">⚠️ Errores</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Errores que debes evitar</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">Estos errores los comete casi todo el mundo. Conócelos para no repetirlos.</p>
+     </div>
+     <div class="space-y-4">
+      <div class="section-card overflow-hidden fade-up"><button class="accordion-toggle w-full p-5 text-left flex items-center justify-between font-semibold" aria-expanded="false"> <span class="flex items-center gap-3"><span class="text-red-500">❌</span> Publicar sin plan ni estrategia</span> <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i> </button>
+       <div class="accordion-content px-5 pb-5">
+        <p class="text-sm text-surface-700 dark:text-surface-200 mb-2"><strong>Por qué es un problema:</strong> Publicas cuando te acuerdas, sobre cualquier tema, sin coherencia. Tu audiencia no sabe qué esperar y el algoritmo no sabe a quién mostrarte.</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Solución:</strong> Planifica al menos 1 semana por adelantado. Define tu nicho, frecuencia y tipo de contenido. Usa Notion o Google Calendar para organizar tu calendario editorial.</p>
+       </div>
+      </div>
+      <div class="section-card overflow-hidden fade-up"><button class="accordion-toggle w-full p-5 text-left flex items-center justify-between font-semibold" aria-expanded="false"> <span class="flex items-center gap-3"><span class="text-red-500">❌</span> Demasiados efectos y transiciones</span> <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i> </button>
+       <div class="accordion-content px-5 pb-5">
+        <p class="text-sm text-surface-700 dark:text-surface-200 mb-2"><strong>Por qué es un problema:</strong> Distrae del contenido. Parece amateur. La gente quiere información o entretenimiento, no un show de efectos.</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Solución:</strong> Máximo 2-3 tipos de transición por vídeo. Los cortes directos son tu mejor amigo. Usa efectos solo cuando aporten algo al mensaje.</p>
+       </div>
+      </div>
+      <div class="section-card overflow-hidden fade-up"><button class="accordion-toggle w-full p-5 text-left flex items-center justify-between font-semibold" aria-expanded="false"> <span class="flex items-center gap-3"><span class="text-red-500">❌</span> Mala calidad de audio</span> <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i> </button>
+       <div class="accordion-content px-5 pb-5">
+        <p class="text-sm text-surface-700 dark:text-surface-200 mb-2"><strong>Por qué es un problema:</strong> El audio malo es la razón #1 por la que la gente abandona un vídeo. Eco, ruido de fondo, volumen bajo... destruyen la experiencia.</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Solución:</strong> Invierte 15€ en un micro de solapa. Graba en un cuarto pequeño con tela (absorbe eco). Elimina ruido en Audacity. Prueba el audio ANTES de grabar todo el vídeo.</p>
+       </div>
+      </div>
+      <div class="section-card overflow-hidden fade-up"><button class="accordion-toggle w-full p-5 text-left flex items-center justify-between font-semibold" aria-expanded="false"> <span class="flex items-center gap-3"><span class="text-red-500">❌</span> Abandonar en las primeras semanas</span> <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i> </button>
+       <div class="accordion-content px-5 pb-5">
+        <p class="text-sm text-surface-700 dark:text-surface-200 mb-2"><strong>Por qué es un problema:</strong> Esperas resultados inmediatos, no llegan, y abandonas. El 90% de creadores abandonan antes de publicar 10 vídeos.</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Solución:</strong> Comprométete a publicar 30 vídeos antes de juzgar resultados. Los primeros son práctica. Compárate solo contigo mismo de hace una semana.</p>
+       </div>
+      </div>
+      <div class="section-card overflow-hidden fade-up"><button class="accordion-toggle w-full p-5 text-left flex items-center justify-between font-semibold" aria-expanded="false"> <span class="flex items-center gap-3"><span class="text-red-500">❌</span> No analizar resultados</span> <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i> </button>
+       <div class="accordion-content px-5 pb-5">
+        <p class="text-sm text-surface-700 dark:text-surface-200 mb-2"><strong>Por qué es un problema:</strong> Publicas a ciegas sin saber qué funciona y qué no. Repites errores sin darte cuenta.</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Solución:</strong> Revisa analytics cada semana. Mira retención, CTR (YouTube), compartidos (TikTok). Tu mejor vídeo te dice qué quiere tu audiencia. Haz más de eso.</p>
+       </div>
+      </div>
+      <div class="section-card overflow-hidden fade-up"><button class="accordion-toggle w-full p-5 text-left flex items-center justify-between font-semibold" aria-expanded="false"> <span class="flex items-center gap-3"><span class="text-red-500">❌</span> Copiar contenido de otros</span> <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i> </button>
+       <div class="accordion-content px-5 pb-5">
+        <p class="text-sm text-surface-700 dark:text-surface-200 mb-2"><strong>Por qué es un problema:</strong> Inspirarse está bien. Copiar exactamente no. Tu audiencia lo nota, el algoritmo lo detecta y nunca construirás una identidad propia.</p>
+        <p class="text-sm text-surface-700 dark:text-surface-200"><strong>Solución:</strong> Inspírate en formatos, no en contenido. Añade tu perspectiva, experiencia y personalidad. La autenticidad es tu mayor ventaja competitiva.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== ESTRATEGIA ========== -->
+   <section id="estrategia" class="py-20 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-brand-500/10 text-brand-600 dark:text-brand-400 mb-4">📈 Estrategia</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Estrategia de crecimiento real</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">No hay atajos. Hay un camino claro que funciona si lo sigues con constancia.</p>
+     </div>
+     <div class="grid sm:grid-cols-2 gap-6">
+      <div class="section-card p-6 fade-up">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold">
+         1
+        </div>
+        <h3 class="font-heading font-bold text-lg">Mes 1-2: Experimentar</h3>
+       </div>
+       <ul class="space-y-2 text-sm text-surface-700 dark:text-surface-200">
+        <li>• Publica 3-5 vídeos por semana</li>
+        <li>• Prueba diferentes formatos y estilos</li>
+        <li>• No juzgues los resultados todavía</li>
+        <li>• Aprende la parte técnica: grabación, edición, publicación</li>
+        <li>• Objetivo: encontrar tu estilo y comodidad frente a cámara</li>
+       </ul>
+      </div>
+      <div class="section-card p-6 fade-up">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold">
+         2
+        </div>
+        <h3 class="font-heading font-bold text-lg">Mes 3-4: Optimizar</h3>
+       </div>
+       <ul class="space-y-2 text-sm text-surface-700 dark:text-surface-200">
+        <li>• Analiza qué ha funcionado mejor</li>
+        <li>• Duplica los formatos exitosos</li>
+        <li>• Mejora hooks y retención</li>
+        <li>• Establece un calendario fijo de publicación</li>
+        <li>• Objetivo: consistencia y mejora de calidad</li>
+       </ul>
+      </div>
+      <div class="section-card p-6 fade-up">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold">
+         3
+        </div>
+        <h3 class="font-heading font-bold text-lg">Mes 5-6: Escalar</h3>
+       </div>
+       <ul class="space-y-2 text-sm text-surface-700 dark:text-surface-200">
+        <li>• Ya sabes qué funciona: haz más de eso</li>
+        <li>• Mejora la producción poco a poco</li>
+        <li>• Interactúa con tu comunidad</li>
+        <li>• Empieza a pensar en series o formatos recurrentes</li>
+        <li>• Objetivo: construir audiencia fiel</li>
+       </ul>
+      </div>
+      <div class="section-card p-6 fade-up">
+       <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold">
+         4
+        </div>
+        <h3 class="font-heading font-bold text-lg">Mes 7+: Consolidar</h3>
+       </div>
+       <ul class="space-y-2 text-sm text-surface-700 dark:text-surface-200">
+        <li>• Mantén la constancia (es cuando muchos abandonan)</li>
+        <li>• Diversifica: si estás en TikTok, considera YouTube y viceversa</li>
+        <li>• Analiza métricas semanalmente</li>
+        <li>• Invierte en mejor equipo si genera retorno</li>
+        <li>• Objetivo: crecimiento sostenible a largo plazo</li>
+       </ul>
+      </div>
+     </div>
+     <div class="section-card p-6 mt-8 fade-up">
+      <h3 class="font-heading font-bold text-lg mb-4">📌 Principios de estrategia que no cambian</h3>
+      <div class="grid sm:grid-cols-2 gap-4">
+       <div class="p-3 bg-surface-50 dark:bg-surface-800 rounded-xl text-sm">
+        <strong>Constancia &gt; Viralidad.</strong> Un vídeo viral sin constancia detrás no construye nada.
+       </div>
+       <div class="p-3 bg-surface-50 dark:bg-surface-800 rounded-xl text-sm">
+        <strong>Valor &gt; Entretenimiento vacío.</strong> Enseña algo, resuelve algo, aporta algo.
+       </div>
+       <div class="p-3 bg-surface-50 dark:bg-surface-800 rounded-xl text-sm">
+        <strong>Datos &gt; Intuición.</strong> Mira las métricas. No adivines qué funciona, mídelo.
+       </div>
+       <div class="p-3 bg-surface-50 dark:bg-surface-800 rounded-xl text-sm">
+        <strong>Autenticidad &gt; Perfección.</strong> La gente conecta con personas reales, no con robots perfectos.
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== INTERACTIVO ========== -->
+   <section id="interactivo" class="py-20 px-4 sm:px-6 bg-surface-50 dark:bg-surface-900/50">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12 fade-up"><span class="tag bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 mb-4">🎯 Interactivo</span>
+      <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4">Herramientas interactivas</h2>
+      <p class="text-surface-700 dark:text-surface-200 mt-3 max-w-2xl mx-auto">Prueba estas herramientas para planificar tu contenido.</p>
+     </div>
+     <div class="grid md:grid-cols-2 gap-6"><!-- Generador de ideas -->
+      <div class="section-card p-6 fade-up">
+       <h3 class="font-heading font-bold text-lg mb-4 flex items-center gap-2"><span class="text-xl">💡</span> Generador de ideas</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-4">Pulsa el botón y obtén una idea aleatoria para tu próximo vídeo.</p>
+       <div id="idea-output" class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl min-h-[60px] flex items-center justify-center text-center font-medium mb-4"><span class="text-surface-700 dark:text-surface-200">Pulsa el botón para generar una idea ✨</span>
+       </div><button id="generate-idea" class="btn-primary w-full py-3 rounded-xl font-semibold flex items-center justify-center gap-2"> <i data-lucide="sparkles" class="w-4 h-4"></i> Generar idea </button>
+      </div><!-- Generador de hooks -->
+      <div class="section-card p-6 fade-up">
+       <h3 class="font-heading font-bold text-lg mb-4 flex items-center gap-2"><span class="text-xl">🎣</span> Generador de hooks</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-4">Obtén un hook para empezar tu próximo vídeo con fuerza.</p>
+       <div id="hook-output" class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl min-h-[60px] flex items-center justify-center text-center font-medium mb-4"><span class="text-surface-700 dark:text-surface-200">Pulsa el botón para generar un hook 🎣</span>
+       </div><button id="generate-hook" class="btn-primary w-full py-3 rounded-xl font-semibold flex items-center justify-center gap-2"> <i data-lucide="zap" class="w-4 h-4"></i> Generar hook </button>
+      </div><!-- Selector de nicho -->
+      <div class="section-card p-6 fade-up">
+       <h3 class="font-heading font-bold text-lg mb-4 flex items-center gap-2"><span class="text-xl">🎯</span> Selector de nicho</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-4">¿No sabes qué nicho elegir? Responde y te ayudamos.</p>
+       <div class="space-y-3 mb-4">
+        <div>
+         <label class="text-sm font-medium block mb-1" for="interest">¿Qué te apasiona?</label> <select id="interest" class="w-full p-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm"> <option value="">Selecciona...</option><option value="tech">Tecnología</option><option value="food">Cocina</option><option value="fitness">Fitness/Salud</option><option value="finance">Finanzas</option><option value="education">Educación</option><option value="creative">Arte/Creatividad</option><option value="lifestyle">Estilo de vida</option><option value="gaming">Gaming</option> </select>
+        </div>
+        <div>
+         <label class="text-sm font-medium block mb-1" for="show-face">¿Quieres mostrar tu cara?</label> <select id="show-face" class="w-full p-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm"> <option value="">Selecciona...</option><option value="yes">Sí</option><option value="no">No</option><option value="sometimes">A veces</option> </select>
+        </div>
+       </div>
+       <div id="niche-result" class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl min-h-[60px] flex items-center justify-center text-center text-sm hidden"></div><button id="find-niche" class="btn-primary w-full py-3 rounded-xl font-semibold flex items-center justify-center gap-2"> <i data-lucide="compass" class="w-4 h-4"></i> Encontrar mi nicho </button>
+      </div><!-- Simulador de frecuencia -->
+      <div class="section-card p-6 fade-up">
+       <h3 class="font-heading font-bold text-lg mb-4 flex items-center gap-2"><span class="text-xl">📅</span> Simulador de frecuencia</h3>
+       <p class="text-sm text-surface-700 dark:text-surface-200 mb-4">¿Cuántos vídeos puedes publicar realmente? Sé honesto.</p>
+       <div class="space-y-3 mb-4">
+        <div>
+         <label class="text-sm font-medium block mb-1" for="hours-week">Horas libres por semana para crear:</label> <input type="range" id="hours-week" min="1" max="20" value="5" class="w-full accent-brand-500">
+         <div class="flex justify-between text-xs text-surface-700 dark:text-surface-200">
+          <span>1h</span><span id="hours-display" class="font-bold">5h</span><span>20h</span>
+         </div>
+        </div>
+        <div>
+         <label class="text-sm font-medium block mb-1" for="platform-freq">Plataforma principal:</label> <select id="platform-freq" class="w-full p-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm"> <option value="tiktok">TikTok</option><option value="youtube">YouTube</option><option value="both">Ambas</option> </select>
+        </div>
+       </div>
+       <div id="freq-result" class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl text-sm text-center font-medium"></div>
+      </div>
+     </div><!-- Checklist -->
+     <div class="section-card p-6 mt-6 fade-up">
+      <h3 class="font-heading font-bold text-lg mb-4 flex items-center gap-2"><span class="text-xl">✅</span> Checklist antes de publicar</h3>
+      <p class="text-sm text-surface-700 dark:text-surface-200 mb-4">Repasa esto antes de cada publicación. Marca lo que tengas listo.</p>
+      <div id="checklist" class="space-y-2">
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Hook potente en los primeros 2 segundos</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Audio limpio y claro</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Subtítulos añadidos</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Sin pausas ni muletillas</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Buena iluminación</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Título optimizado para búsqueda</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Miniatura atractiva (YouTube)</span>
+       </div>
+       <div class="checklist-item flex items-center gap-3 p-3 rounded-xl border border-surface-200 dark:border-surface-700">
+        <div class="w-5 h-5 rounded border-2 border-surface-200 dark:border-surface-700 flex-shrink-0 flex items-center justify-center transition-colors">
+         <i data-lucide="check" class="w-3 h-3 hidden"></i>
+        </div><span class="text-sm">Call to action claro al final</span>
+       </div>
+      </div>
+      <div id="checklist-progress" class="mt-4 text-center text-sm font-semibold text-brand-600">
+       0 / 8 completados
+      </div>
+     </div>
+    </div>
+   </section><!-- ========== CONTACTO ========== -->
+   <section id="contacto" class="py-20 px-4 sm:px-6">
+    <div class="max-w-2xl mx-auto text-center fade-up"><span class="tag bg-brand-500/10 text-brand-600 dark:text-brand-400 mb-4">💬 Contacto</span>
+     <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-4 mb-4">¿Tienes dudas?</h2>
+     <p class="text-surface-700 dark:text-surface-200 mb-8">Si tienes alguna pregunta sobre la guía o necesitas orientación, no dudes en escribir.</p>
+     <div class="section-card p-6 sm:p-8 text-left">
+      <form id="contact-form" class="space-y-4">
+       <div>
+        <label for="contact-name" class="text-sm font-medium block mb-1">Nombre</label> <input type="text" id="contact-name" placeholder="Tu nombre" class="w-full p-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+       </div>
+       <div>
+        <label for="contact-email" class="text-sm font-medium block mb-1">Email</label> <input type="email" id="contact-email" placeholder="tu@email.com" class="w-full p-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+       </div>
+       <div>
+        <label for="contact-msg" class="text-sm font-medium block mb-1">Mensaje</label> <textarea id="contact-msg" rows="4" placeholder="Tu pregunta o comentario..." class="w-full p-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 resize-none"></textarea>
+       </div><button type="submit" class="btn-primary w-full py-3 rounded-xl font-semibold flex items-center justify-center gap-2"> <i data-lucide="send" class="w-4 h-4"></i> Enviar mensaje </button>
+       <div id="contact-success" class="hidden p-3 bg-brand-500/10 text-brand-600 rounded-xl text-sm text-center font-medium">
+        ✅ Mensaje enviado correctamente. ¡Gracias!
+       </div>
+      </form>
+     </div>
+    </div>
+   </section><!-- FOOTER -->
+   <footer class="py-10 px-4 border-t border-surface-200 dark:border-surface-700">
+    <div class="max-w-6xl mx-auto text-center">
+     <p class="font-heading font-bold text-lg mb-2">creadordigital.com</p>
+     <p class="text-sm text-surface-700 dark:text-surface-200 mb-4">Guía práctica para creadores de contenido · 2025</p>
+     <p class="text-xs text-surface-700 dark:text-surface-200">Hecho con dedicación. Sin atajos, sin humo, sin promesas vacías.</p>
+    </div>
+   </footer>
+  </div>
+  <script>
+// ===== ELEMENT SDK =====
+const defaultConfig = {
+  hero_title: 'Crea contenido que funcione de verdad',
+  hero_subtitle: 'Sin fórmulas mágicas. Sin promesas vacías. Una guía práctica, directa y honesta para empezar en TikTok y YouTube desde cero.',
+  background_color: '#fafafa',
+  surface_color: '#ffffff',
+  text_color: '#18181b',
+  primary_action_color: '#22c55e',
+  secondary_action_color: '#16a34a',
+  font_family: 'Space Grotesk',
+  font_size: 16
+};
+
+function applyConfig(config) {
+  const t = document.getElementById('hero-title');
+  if (t) {
+    const parts = (config.hero_title || defaultConfig.hero_title).split('\n');
+    t.innerHTML = parts[0];
+  }
+  const s = document.getElementById('hero-subtitle');
+  if (s) s.textContent = config.hero_subtitle || defaultConfig.hero_subtitle;
+
+  const bg = config.background_color || defaultConfig.background_color;
+  const surf = config.surface_color || defaultConfig.surface_color;
+  const txt = config.text_color || defaultConfig.text_color;
+  const pri = config.primary_action_color || defaultConfig.primary_action_color;
+  const sec = config.secondary_action_color || defaultConfig.secondary_action_color;
+  const font = config.font_family || defaultConfig.font_family;
+  const size = config.font_size || defaultConfig.font_size;
+
+  document.body.style.background = bg;
+  document.body.style.color = txt;
+  document.querySelectorAll('.section-card').forEach(el => { el.style.background = surf; });
+  document.querySelectorAll('.btn-primary').forEach(el => { el.style.background = pri; });
+  document.querySelectorAll('.btn-secondary').forEach(el => { el.style.borderColor = pri; el.style.color = pri; });
+  document.querySelectorAll('.text-brand-500,.text-brand-600').forEach(el => { el.style.color = pri; });
+
+  document.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach(el => {
+    el.style.fontFamily = `${font}, sans-serif`;
+  });
+  document.body.style.fontSize = `${size}px`;
+}
+
+if (window.elementSdk) {
+  window.elementSdk.init({
+    defaultConfig,
+    onConfigChange: async (config) => applyConfig(config),
+    mapToCapabilities: (config) => ({
+      recolorables: [
+        { get: () => config.background_color || defaultConfig.background_color, set: (v) => { config.background_color = v; window.elementSdk.setConfig({ background_color: v }); } },
+        { get: () => config.surface_color || defaultConfig.surface_color, set: (v) => { config.surface_color = v; window.elementSdk.setConfig({ surface_color: v }); } },
+        { get: () => config.text_color || defaultConfig.text_color, set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); } },
+        { get: () => config.primary_action_color || defaultConfig.primary_action_color, set: (v) => { config.primary_action_color = v; window.elementSdk.setConfig({ primary_action_color: v }); } },
+        { get: () => config.secondary_action_color || defaultConfig.secondary_action_color, set: (v) => { config.secondary_action_color = v; window.elementSdk.setConfig({ secondary_action_color: v }); } }
+      ],
+      borderables: [],
+      fontEditable: {
+        get: () => config.font_family || defaultConfig.font_family,
+        set: (v) => { config.font_family = v; window.elementSdk.setConfig({ font_family: v }); }
+      },
+      fontSizeable: {
+        get: () => config.font_size || defaultConfig.font_size,
+        set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); }
+      }
+    }),
+    mapToEditPanelValues: (config) => new Map([
+      ['hero_title', config.hero_title || defaultConfig.hero_title],
+      ['hero_subtitle', config.hero_subtitle || defaultConfig.hero_subtitle]
+    ])
+  });
+}
+
+// ===== DARK MODE =====
+const themeToggle = document.getElementById('theme-toggle');
+themeToggle.addEventListener('click', () => {
+  document.documentElement.classList.toggle('dark');
+});
+
+// ===== MOBILE MENU =====
+const mobileToggle = document.getElementById('mobile-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+const mobileClose = document.getElementById('mobile-close');
+const mobileOverlay = document.getElementById('mobile-overlay');
+function openMobile() { mobileMenu.classList.add('open'); mobileOverlay.classList.remove('hidden'); }
+function closeMobile() { mobileMenu.classList.remove('open'); mobileOverlay.classList.add('hidden'); }
+mobileToggle.addEventListener('click', openMobile);
+mobileClose.addEventListener('click', closeMobile);
+mobileOverlay.addEventListener('click', closeMobile);
+document.querySelectorAll('.mobile-link').forEach(l => l.addEventListener('click', closeMobile));
+
+// ===== SCROLL ANIMATIONS =====
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+// ===== ACCORDIONS =====
+document.querySelectorAll('.accordion-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const content = btn.nextElementSibling;
+    const icon = btn.querySelector('[data-lucide]');
+    const isOpen = content.classList.contains('open');
+    content.classList.toggle('open');
+    if (icon) icon.style.transform = isOpen ? '' : 'rotate(180deg)';
+    btn.setAttribute('aria-expanded', !isOpen);
+  });
+});
+
+// ===== IDEA TABS =====
+document.querySelectorAll('#ideas-tabs .tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#ideas-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.ideas-panel').forEach(p => p.classList.add('hidden'));
+    document.getElementById('tab-' + btn.dataset.tab).classList.remove('hidden');
+  });
+});
+
+// ===== IDEA GENERATOR =====
+const ideas = [
+  '«3 errores que cometes en [tu nicho] sin darte cuenta»',
+  '«Lo que haría si empezara de cero en [plataforma]»',
+  '«La verdad sobre [tema popular de tu nicho]»',
+  '«Mi rutina de [actividad] en 60 segundos»',
+  '«Probé [cosa] durante 7 días y esto pasó»',
+  '«El truco más simple para [resultado]»',
+  '«Esto te va a ahorrar horas en [actividad]»',
+  '«5 cosas que desearía saber antes de [actividad]»',
+  '«Respondo vuestras preguntas sobre [tema]»',
+  '«La herramienta que cambió mi [actividad]»',
+  '«Comparativa honesta: [A] vs [B]»',
+  '«Mi opinión impopular sobre [tema]»',
+  '«Tutorial rápido: [tarea concreta]»',
+  '«Día en mi vida como [tu actividad]»',
+  '«Red flags de [nicho] que nadie menciona»'
+];
+document.getElementById('generate-idea').addEventListener('click', () => {
+  const el = document.getElementById('idea-output');
+  el.innerHTML = `<span class="font-semibold">${ideas[Math.floor(Math.random() * ideas.length)]}</span>`;
+});
+
+// ===== HOOK GENERATOR =====
+const hooks = [
+  '«Nadie te dice esto sobre [tema], pero deberían...»',
+  '«El 90% de la gente hace esto mal y ni lo sabe»',
+  '«Esto me costó aprender 2 años, te lo explico en 30 segundos»',
+  '«Si estás empezando en [nicho], PARA y mira esto primero»',
+  '«¿Sabías que [dato sorprendente]? Pues hay más...»',
+  '«Mira el resultado final. Ahora te cuento cómo»',
+  '«El consejo que me cambió [actividad] por completo»',
+  '«No hagas esto si quieres [resultado]. Haz esto otro»',
+  '«Llevo [tiempo] haciendo [actividad]. Esto es lo que aprendí»',
+  '«Este truco vale oro y es completamente gratis»',
+  '«La diferencia entre [A] y [B] es brutal. Te la explico»',
+  '«Lo que no te cuentan de [tema popular]...»'
+];
+document.getElementById('generate-hook').addEventListener('click', () => {
+  const el = document.getElementById('hook-output');
+  el.innerHTML = `<span class="font-semibold">${hooks[Math.floor(Math.random() * hooks.length)]}</span>`;
+});
+
+// ===== NICHE SELECTOR =====
+const nicheData = {
+  tech: { face: 'Reviews de gadgets, opiniones tech, día en tu vida tech', noface: 'Screencasts, tutoriales de apps, comparativas con texto', sometimes: 'Mix de reviews a cámara y tutoriales en pantalla' },
+  food: { face: 'Recetas con personalidad, vlogs de cocina, probando comida', noface: 'Recetas cenital (manos), ASMR cocina, recetas paso a paso', sometimes: 'Recetas mostrando proceso + tips a cámara' },
+  fitness: { face: 'Rutinas, diario de entreno, consejos nutricionales', noface: 'Rutinas con texto guía, time-lapses, infografías animadas', sometimes: 'Rutinas a cámara + datos/gráficos explicativos' },
+  finance: { face: 'Consejos financieros directos, storytimes de dinero', noface: 'Infografías, screencasts de apps, datos animados', sometimes: 'Tips a cámara + gráficos y datos en pantalla' },
+  education: { face: 'Clases cortas, resúmenes, datos curiosos explicados', noface: 'Texto animado, pizarra digital, slideshows con voz', sometimes: 'Explicaciones a cámara + apoyo visual' },
+  creative: { face: 'Proceso creativo, tutoriales, opiniones artísticas', noface: 'Time-lapses de creación, tutoriales de herramientas', sometimes: 'Mostrar proceso + explicar técnicas' },
+  lifestyle: { face: 'Vlogs con propósito, rutinas, organización', noface: 'Aesthetic videos, setup tours, organización ASMR', sometimes: 'Rutinas + tips prácticos' },
+  gaming: { face: 'Gameplays con facecam, reviews, opiniones', noface: 'Gameplays con voz, highlights, compilaciones', sometimes: 'Reviews a cámara + gameplay' }
+};
+document.getElementById('find-niche').addEventListener('click', () => {
+  const interest = document.getElementById('interest').value;
+  const face = document.getElementById('show-face').value;
+  const result = document.getElementById('niche-result');
+  if (!interest || !face) { result.classList.remove('hidden'); result.innerHTML = '<span class="text-red-500">Selecciona ambas opciones</span>'; return; }
+  const key = face === 'yes' ? 'face' : face === 'no' ? 'noface' : 'sometimes';
+  result.classList.remove('hidden');
+  result.innerHTML = `<div><p class="font-bold mb-1">Tu nicho ideal:</p><p>${nicheData[interest][key]}</p></div>`;
+});
+
+// ===== FREQUENCY SIMULATOR =====
+const hoursInput = document.getElementById('hours-week');
+const hoursDisplay = document.getElementById('hours-display');
+const platformFreq = document.getElementById('platform-freq');
+const freqResult = document.getElementById('freq-result');
+
+function updateFreq() {
+  const h = parseInt(hoursInput.value);
+  hoursDisplay.textContent = h + 'h';
+  const p = platformFreq.value;
+  let msg = '';
+  if (p === 'tiktok') {
+    const vids = Math.max(1, Math.floor(h / 1.5));
+    msg = `Con ${h}h/semana puedes publicar <strong>${vids} TikToks/semana</strong>. ${vids >= 5 ? '¡Excelente ritmo!' : vids >= 3 ? 'Buen ritmo para crecer.' : 'Poco pero constante. Mejor eso que nada.'}`;
+  } else if (p === 'youtube') {
+    const vids = Math.max(1, Math.floor(h / 6));
+    msg = `Con ${h}h/semana puedes publicar <strong>${vids} vídeo${vids > 1 ? 's' : ''}/semana en YouTube</strong>. ${vids >= 2 ? '¡Muy buen ritmo!' : 'Un vídeo semanal de calidad es perfecto.'}`;
+  } else {
+    const tt = Math.max(1, Math.floor(h * 0.4 / 1.5));
+    const yt = Math.max(1, Math.floor(h * 0.6 / 6));
+    msg = `Recomendación: <strong>${tt} TikToks + ${yt} vídeo${yt > 1 ? 's' : ''} YouTube/semana</strong>. Dedica el 60% a YouTube y 40% a TikTok.`;
+  }
+  freqResult.innerHTML = msg;
+}
+hoursInput.addEventListener('input', updateFreq);
+platformFreq.addEventListener('change', updateFreq);
+updateFreq();
+
+// ===== CHECKLIST =====
+document.querySelectorAll('.checklist-item').forEach(item => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('checked');
+    const icon = item.querySelector('[data-lucide]');
+    const box = item.querySelector('div');
+    if (item.classList.contains('checked')) {
+      icon.classList.remove('hidden');
+      box.style.background = '#22c55e';
+      box.style.borderColor = '#22c55e';
+      icon.style.color = '#fff';
+    } else {
+      icon.classList.add('hidden');
+      box.style.background = '';
+      box.style.borderColor = '';
+    }
+    const total = document.querySelectorAll('.checklist-item').length;
+    const checked = document.querySelectorAll('.checklist-item.checked').length;
+    document.getElementById('checklist-progress').textContent = `${checked} / ${total} completados`;
+  });
+});
+
+// ===== CONTACT FORM =====
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  document.getElementById('contact-success').classList.remove('hidden');
+  e.target.reset();
+  setTimeout(() => document.getElementById('contact-success').classList.add('hidden'), 4000);
+});
+
+// ===== INIT LUCIDE =====
+lucide.createIcons();
+</script>
+</body>
+</html>
